@@ -8,4 +8,4 @@ class Viagem:
 x = Viagem()
 x.distancia = int(input("Digite a distância percorrida: "))
 x.tempo = int(input("Digite o tempo gasto: "))
-print(x.calc_velocidademedia())
+print(f"Velocidade média = {x.calc_velocidademedia()}")
