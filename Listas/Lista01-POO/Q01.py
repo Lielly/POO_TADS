@@ -6,6 +6,6 @@ class Circulo:
     def calc_circunferencia(self):
         return 2 * 3.14 * self.raio
 x = Circulo()
-x.raio = 3
-print(x.calc_area())
-print(x.calc_circunferencia())
+x.raio = int(input("Digite o raio do círculo: "))
+print(f"Área = {x.calc_area()}")
+print(f"Circunferência = {x.calc_circunferencia()}")
